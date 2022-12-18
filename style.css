@@ -1,0 +1,271 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-body: 'Inter', sans-serif;
+    --ff-normal: 400;
+    --ff-bold: 700;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--ff-body);
+    font-size: 1rem;
+    background: white;
+    align-items: center;
+    place-items: center;
+    margin-top: 0px;
+    height: 100vh;
+    max-width: 1440px;
+    
+}
+
+
+/* Button-Click Hero to Hover */
+/* Button-Click Hero to Hover */
+/* Button-Click Hero to Hover */
+/* Button-Click Hero to Hover */
+
+.con-btn {
+    display: flex;
+    min-height: 100vh;
+    max-width: 425px;
+    margin-left: 800px;
+
+
+    
+}
+
+.btn {
+    width: 428px;
+    height: 85px;
+    border: 5px solid #0692BC;
+    font-size: large;
+    border-radius: 50px;
+    transition: ease-out 0.5s;
+    font-size: 20px;
+    outline: none;
+    box-shadow: inset 0 0 0 0 #0692BC;
+    color: #0692BC;
+    background: white;
+}
+
+p {
+    width: 85px;
+    height: 85px;
+    background: #0692BC;
+    border-radius: 100%;
+    position: absolute;
+    top: 0%;
+    margin: 0;
+}
+
+.btn:hover {
+    box-shadow: inset 428px 0 0 0 #0692BC;
+    color: #0692BC;
+}
+
+/* Button-Click Hero to Hover */
+/* Button-Click Hero to Hover */
+/* Button-Click Hero to Hover */
+/* Button-Click Hero to Hover */
+
+
+
+
+
+
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+/* Steps */
+/* Steps */
+/* Steps */
+/* Steps */
+
+.steps{
+    position: absolute;
+    margin: 55px;
+    margin-top: -90px;    
+}
+
+div[step1],[step2],[step3],[step4],[step5],[step6]{
+    width: 112px;
+    background: #0692BC;
+    height: 50px;
+    float: left;
+    margin: 40px;
+    border-radius: 100px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+div[step1]:hover,div[step2]:hover,div[step3]:hover,div[step4]:hover,div[step5]:hover,div[step6]:hover{
+    background: #6EBE45;
+    width: 95px;
+    height: 130px;
+    margin-top: -50px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    transition: all .5s linear;  
+}
+
+.line{
+    width: 980px;
+    height: 7.5px;
+    margin: -1130px;
+    background: #868686;
+    left: 30px;
+    top: 0px;
+    right: 0px;
+    border-radius: 100px;
+    }
+
+.dot{
+    display: inline-block;
+    width: 8px;
+    height: 7.5px;
+    margin: 180px;
+    background: #363C5F;
+    border-radius: 100px;
+    margin-left: 0px;
+    margin-top:  0px;
+
+    }
+
+
+    /* Steps */
+    /* Steps */
+    /* Steps */
+    /* Steps */
+
+
+
+
+
+   
+
+ 
+
+a{
+    color: #0692BC;
+   
+}
+
+
+    /* BİSİKLET & BALON
+    BİSİKLET & BALON
+    BİSİKLET & BALON
+    BİSİKLET & BALON */
+
+
+
+    .bicycle{
+        margin-left: 560px;
+        width: 10px;
+        height: 20px;
+        animation: bicycle 1s linear infinite;
+    }
+    
+    @keyframes bicycle
+    {
+         100%{
+             transform: translateY(-5px);
+         }
+         50%{
+            transform: translateY(1px);
+        }
+        0%{
+            transform: translateY(-5px);
+        }
+    }
+    
+    
+    
+    .baloon{
+        margin: -100px;
+        margin-left: 990px;
+        width: 10px;
+        height: 20px;
+        animation: baloon 4s linear infinite;
+    }
+    
+    @keyframes baloon
+    {
+         100%{
+             transform: translateY(-200px);
+         }
+         50%{
+            transform: translateY(-200px);
+            
+        }
+        0%{
+            transform: translateY(100px);
+        }
+    }
+
+    .wheel{
+        margin: 320px;
+        margin-left: 522px;
+        position: absolute;
+        
+        animation: wheel 1s linear infinite;
+    }
+
+    @keyframes wheel
+    {
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+
+    .wheel2{
+        margin: 312px;
+        margin-left: 839px;
+        animation: wheel2 1s linear infinite;
+        position: absolute;
+    }
+
+    @keyframes wheel2
+    {
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+    
+
+/*
+    BİSİKLET & BALON
+    BİSİKLET & BALON
+    BİSİKLET & BALON
+    BİSİKLET & BALON
+    */
+
+
+
+    
